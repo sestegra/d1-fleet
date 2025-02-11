@@ -5,8 +5,8 @@ metadata:
   namespace: flux-system
 spec:
   serviceAccountName: kustomize-controller
-  dependsOn:
-    - name: flux-infra-tenant
+  # dependsOn:
+  #   - name: flux-infra-tenant
   interval: 12h
   retryInterval: 3m
   path: ./tenants/apps
