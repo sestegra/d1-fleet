@@ -6,6 +6,6 @@ spec:
   interval: 1m
   ref:
     branch: ${GIT_BRANCH}
-  secretRef:
-    name: flux-system
-  url: https://github.com/controlplaneio-fluxcd/d1-infra.git
+  # secretRef:
+  #   name: flux-system
+  url: https://github.com/sestegra/d1-infra.git

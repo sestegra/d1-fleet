@@ -6,9 +6,9 @@ spec:
   interval: 1m
   ref:
     branch: ${GIT_BRANCH}
-  secretRef:
-    name: flux-apps
-  url: https://github.com/controlplaneio-fluxcd/d1-apps.git
+  # secretRef:
+  #   name: flux-apps
+  url: https://github.com/sestegra/d1-apps.git
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
